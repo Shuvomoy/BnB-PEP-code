@@ -1,9 +1,3 @@
-
-# using Weave
-# cd("C:\\Users\\shuvo\\Google Drive\\GitHub\BnB-PEP-code-all\\1_Gradient_reduction_in_strongly_convex_smooth_problems\\") # directory that contains the .jmd file
-# tangle("[Polished]_BnB-PEP-gradient-reduction-scvx-smooth.jmd", informat = "markdown")
-
-
 ## Load the packages:
 # -------------------
 using JuMP, MosekTools, Mosek, LinearAlgebra,  OffsetArrays,  Gurobi, Ipopt, JLD2, Distributions, OrderedCollections, BenchmarkTools, KNITRO

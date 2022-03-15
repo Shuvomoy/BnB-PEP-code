@@ -4,7 +4,7 @@ This code can be used to reproduce and verify the results from the work
 
 > Shuvomoy Das Gupta, Bart P.G. Van Parys, Ernest K. Ryu, "Branch-and-Bound Performance Estimation Programming: A Unified Methodology for Constructing Optimal Optimization Methods"
 
-A preprint of the work is available on Optimization Online [here](http://www.optimization-online.org/DB_HTML/2022/03/8819.html). 
+A preprint of the work is available on arXiv [here](https://arxiv.org/abs/2203.07305) and Optimization Online [here](http://www.optimization-online.org/DB_HTML/2022/03/8819.html). 
 
 ## Reporting issues
 Please report any issues via the [Github issue tracker](https://github.com/Shuvomoy/BnB-PEP-code/issues). All types of issues are welcome including bug reports, feature requests, and so on.

@@ -1696,7 +1696,7 @@ function BnB_PEP_solver(
         Θ_opt,
         h_opt,
         idx_set_λ_opt_effective,
-        idx_set_τ_opt_effective = d_star_ws,
+        idx_set_τ_opt_effective,
         λ_ws,
         τ_ws,
         Z_ws,
@@ -1859,4 +1859,3 @@ function BnB_PEP_solver(
     idx_set_τ_opt_effective
 
 end # function end
-

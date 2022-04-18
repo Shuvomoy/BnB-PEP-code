@@ -373,7 +373,6 @@ function solve_dual_PEP_with_known_stepsizes(N, L, h, R;
     # add the linear constraint
     # -------------------------
 
-    # the constraint is: ∑ λ[i,j] a[i,j] = 0
     # note that in the code i_j_λ = (i,j), i_j_λ.i = i, i_j_λ.j = j
     @constraint(model_dual_PEP_with_known_stepsizes,   sum(λ[i_j_λ]*a_vec(i_j_λ.i,i_j_λ.j,𝐟) for i_j_λ in idx_set_λ) - a_vec(-1,N,𝐟) .== 0)
 
@@ -812,7 +811,7 @@ function BnB_PEP_solver(
 
     @info "[🎋 ] adding linear constraint"
 
-    # the constraint is: ∑ λ[i,j] a[i,j] = 0
+
     # note that in the code i_j_λ = (i,j), i_j_λ.i = i, i_j_λ.j = j
     @constraint(BnB_PEP_model, sum(λ[i_j_λ]*a_vec(i_j_λ.i,i_j_λ.j,𝐟) for i_j_λ in idx_set_λ) - a_vec(-1,N,𝐟) .== 0)
 

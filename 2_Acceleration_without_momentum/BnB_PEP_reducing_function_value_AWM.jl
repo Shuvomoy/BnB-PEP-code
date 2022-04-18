@@ -1540,12 +1540,12 @@ function SDP_relaxation_solver_for_bound_generation(N, L, R;
 
     end
 
-    # add the linear constraint (need to fix)
+    # add the linear constraint 
     # -------------------------
 
     @constraint(model_lifted,   sum(λ[i_j_λ]*a_vec(i_j_λ.i,i_j_λ.j,𝐟) for i_j_λ in idx_set_λ) - a_vec(-1,N,𝐟) .== 0)
 
-    # add the LMI constraint (need to fix)
+    # add the LMI constraint 
     # ----------------------
 
     for k in 1:dim_𝐱

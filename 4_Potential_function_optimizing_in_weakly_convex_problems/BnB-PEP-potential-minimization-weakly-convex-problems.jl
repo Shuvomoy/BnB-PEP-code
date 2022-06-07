@@ -954,6 +954,7 @@ function BnB_PEP_solver(
         𝐰_ws, 𝐠_ws, 𝐟_ws =
             data_generator_potential_pep(h_ws, k; input_type = :stepsize_constant)
         Θ_ws[i_j_k_λ] = ⊙(𝐰_ws[:, i] - 𝐰_ws[:, j], 𝐰_ws[:, i] - 𝐰_ws[:, j])
+		set_start_value.(Θ[i_j_k_λ] ,Θ_ws[i_j_k_λ])
     end
 
 
@@ -1780,4 +1781,3 @@ function BnB_PEP_solver(
     idx_set_τ_opt_effective
 
 end # function end
-

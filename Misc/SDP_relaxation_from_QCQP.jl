@@ -1,6 +1,7 @@
 # Automated SDP relaxation of QCQPs in JuMP+Julia
 
 # Here, we show how to construct automatic SDP relaxation of a nonconvex QCQP in `Julia+JuMP` 
+# The code was written based on the tips from Benoît Legat (https://blegat.github.io/)
 
 ## Example QCQP
 

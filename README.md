@@ -21,8 +21,11 @@ If you find the code helpful in you project, we kindly request that you cite the
 }
 ```
 
+**Please use Gurobi 12.0 or later.** Please use `Gurobi 12.0` or later when implementing stage 3 of the BnB-PEP algorithm: several issues in the spatial branch-and-bound algorithm in `Gurobi 10.0` that cause numerical instabilities have recently been fixed; see the list of bug fixes [here](https://docs.gurobi.com/projects/optimizer/en/12.0/reference/releasenotes/fixedbugs.html) and [here](https://docs.gurobi.com/projects/optimizer/en/11.0/reference/releasenotes/fixedbugs.html).
+
 ## Reporting issues
+
 Please report any issues via the [Github issue tracker](https://github.com/Shuvomoy/BnB-PEP-code/issues). All types of issues are welcome including bug reports, feature requests, and so on.
 
 ## Contact
-Please feel free to send an email :email: to [sdgupta@mit.edu](mailto:sdgupta@mit.edu) regarding any subject including but not limited to comments about this paper, performance estimation problems in general, implementation for a specific research problem, or just to say hi 😃!
+Please feel free to send an email :email: to sd158@rice.edu [](mailto: sd158@rice.edu) regarding any subject including but not limited to comments about this paper, performance estimation problems in general, implementation for a specific research problem, or just to say hi 😃!
